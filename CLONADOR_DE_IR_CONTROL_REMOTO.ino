@@ -27,7 +27,7 @@ int Reconocido = 0;
 void setup() {
   Serial.begin(115200);
 
-  Serial.println("Esperando Puso IR por el Pin D2");
+  Serial.println("Esperando Puso IR por el Pin D4");
 
 
 #if DECODE_HASH
